@@ -1,6 +1,6 @@
 # has-launchd
 
-Tells if macos [launchd](http://nathangrigg.net/2012/07/schedule-jobs-using-launchd/) is vailable.
+Tells if macos [launchd](http://nathangrigg.net/2012/07/schedule-jobs-using-launchd/) is available.
 
 ## Usage
 
