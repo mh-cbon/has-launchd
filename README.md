@@ -35,4 +35,6 @@ or just
 
 ## TODOS
 
-- add tests for win7
+- add tests for macos/lion
+- add tests for macos/maverick
+- add tests for macos/el-capitan
