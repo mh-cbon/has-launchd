@@ -36,5 +36,5 @@ or just
 ## TODOS
 
 - add tests for macos/lion
-- add tests for macos/maverick
+- ~~add tests for macos/maverick~~
 - add tests for macos/el-capitan
