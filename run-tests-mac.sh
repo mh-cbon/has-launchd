@@ -1,5 +1,4 @@
 if [ ! -f /Users/vagrant/node/node-v5.9.1-darwin-x64.tar.xz ]; then
-  sudo dnf install wget -y
   mkdir -p /Users/vagrant/node
   cd /Users/vagrant/node/
   curl "https://nodejs.org/dist/v5.9.1/node-v5.9.1-darwin-x64.tar.gz" -o "/Users/vagrant/node/node-v5.9.1-darwin-x64.tar.xz"

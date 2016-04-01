@@ -37,4 +37,5 @@ or just
 
 - add tests for macos/lion
 - ~~add tests for macos/maverick~~
-- add tests for macos/el-capitan
+- ~~add tests for macos/yosemite~~
+- add tests for macos/elcapitan
