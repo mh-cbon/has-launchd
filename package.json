@@ -1,6 +1,6 @@
 {
   "name": "@mh-con/has-launchd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tells if a system runs macos launchd service manager",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,9 @@
     "public": "npm publish --access=public"
   },
   "keywords": [
-    "mac", "service", "launchd"
+    "mac",
+    "service",
+    "launchd"
   ],
   "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
   "license": "MIT",
