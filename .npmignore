@@ -1,0 +1,7 @@
+/.vagrant/
+/test/
+/mocha-mac.sh
+/mocha-not-mac.sh
+/run-tests-mac.sh
+/run-tests-not-mac.sh
+/Vagrantfile
