@@ -1,0 +1,6 @@
+{
+  "name": "Has-launchd",
+  "tagline": "tells if a system runs macos launchd service manager",
+  "body": "# has-launchd\r\n\r\nTells if macos [launchd](http://nathangrigg.net/2012/07/schedule-jobs-using-launchd/) is available.\r\n\r\n## Usage\r\n\r\n```js\r\nrequire('@mh-cbon/has-launchd')(function (err, launchdPath) {\r\n  console.log(\"This system runs launchd : %s\", err?\"no\":\"yes\");\r\n  launchdPath && console.log(\"Found launchd at path : %s\", launchdPath)\r\n})\r\n```\r\n\r\n## Testing\r\n\r\n#### mac\r\n\r\nTo run the __mac__ tests on a fedora-like box,\r\n\r\n- download and install [vagrant](https://www.vagrantup.com/)\r\n- execute `npm run test-mac`\r\n- wait, a looooooonnnnggggg time. Mac images are very big....\r\n\r\n\r\n#### linux\r\nTo run the __linux__ tests on a fedora-like box,\r\n\r\n- download and install `vagrant`\r\n- execute `npm run test-not-mac`\r\n\r\nor just\r\n\r\n- download and install `mocha`\r\n- `mocha test/not-mac.js`\r\n\r\n## TODOS\r\n\r\n- add tests for macos/lion\r\n- ~~add tests for macos/maverick~~\r\n- ~~add tests for macos/yosemite~~\r\n- add tests for macos/elcapitan\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
